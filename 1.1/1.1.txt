@@ -1,0 +1,7 @@
+to 20. elo 2020 17.22.44
+
+docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES
+0d0dc50914fc        nginx               "/docker-entrypoint.…"   2 minutes ago       Exited (0) 3 seconds ago                       priceless_maxwell
+de20d535f98e        nginx               "/docker-entrypoint.…"   2 minutes ago       Exited (0) 3 seconds ago                       youthful_chaplygin
+0f37bc944afa        nginx               "/docker-entrypoint.…"   2 minutes ago       Up 2 minutes               80/tcp              naughty_

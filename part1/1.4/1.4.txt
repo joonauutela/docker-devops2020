@@ -1,0 +1,22 @@
+$ docker run --name secret_log devopsdockeruh/exec_bash_exercise
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+
+
+$ docker exec -it secret_log bash
+root@ccc808b79cdb:/usr/app# tail -f ./logs.txt
+"Docker is easy"
+Fri, 21 Aug 2020 14:00:58 GMT
+Fri, 21 Aug 2020 14:01:01 GMT
+Fri, 21 Aug 2020 14:01:04 GMT
+Fri, 21 Aug 2020 14:01:07 GMT
+Secret message is:
+"Docker is easy"
+Fri, 21 Aug 2020 14:01:13 GMT
+Fri, 21 Aug 2020 14:01:16 GMT
+Fri, 21 Aug 2020 14:01:19 GMT
+Fri, 21 Aug 2020 14:01:22 GMT
+Secret message is:
+"Docker is easy"

@@ -1,0 +1,5 @@
+BUILD COMMAND:
+$ docker build . -t docker-clock
+
+RUN COMMAND:
+$ docker run docker-clock                                                                                                                         

@@ -1,0 +1,20 @@
+$ docker run -d ubuntu sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'           
+8b61b1a1d57d2b8fef0d891bf45fffe9acc1b42e3ac305e471a44f3349ae9bb0
+
+$ docker exec -it 49 bash                                                                                                        
+root@49253f9b17c1:/# apt-get update; apt-get install curl
+127 added, 0 removed; done.
+
+root@49253f9b17c1:/# exit
+exit
+
+$ docker attach 49
+helsinki.fi
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
+</body></html>

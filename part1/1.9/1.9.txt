@@ -1,9 +1,7 @@
 RUN:
-
 $ docker run -d -p 3000:80 devopsdockeruh/ports_exercise
 8a4aa4bded4dedfa1ec13de29ae519d86c2a9c3ad2d0dfd3e202648bbe78bfd5
 
 CHECK CONNECTION: 
-
 $ docker port 8a4
 80/tcp -> 0.0.0.0:3000

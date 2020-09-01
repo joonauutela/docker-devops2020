@@ -1,0 +1,5 @@
+BUILD:
+$ docker build -t rails-example .
+
+RUN:
+$ docker run -p 3000:3000 rails-example

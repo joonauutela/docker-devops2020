@@ -1,0 +1,5 @@
+BUILD:
+$ docker build -t java-spring .
+
+RUN:
+$ docker run -p 8080:8080 java-spring   

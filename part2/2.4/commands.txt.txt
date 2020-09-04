@@ -1,0 +1,6 @@
+COMPOSE:
+$ docker-compose up -d --scale compute=3
+
+MAKE SURE VIRTUAL HOST IS WORKING:
+$ curl compute.localtest.me
+Hello World!

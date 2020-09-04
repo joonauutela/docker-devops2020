@@ -1,0 +1,19 @@
+Fri, 04 Sep 2020 14:38:38 GMT
+Fri, 04 Sep 2020 14:38:41 GMT
+Fri, 04 Sep 2020 14:38:44 GMT
+Fri, 04 Sep 2020 14:38:47 GMT
+Secret message is:
+"Volume bind mount is easy"
+Fri, 04 Sep 2020 14:38:53 GMT
+Fri, 04 Sep 2020 14:38:56 GMT
+Fri, 04 Sep 2020 14:38:59 GMT
+Fri, 04 Sep 2020 14:39:02 GMT
+Secret message is:
+"Volume bind mount is easy"
+Fri, 04 Sep 2020 14:39:08 GMT
+Fri, 04 Sep 2020 14:39:11 GMT
+Fri, 04 Sep 2020 14:39:14 GMT
+Fri, 04 Sep 2020 14:39:17 GMT
+Secret message is:
+"Volume bind mount is easy"
+Fri, 04 Sep 2020 14:39:23 GMT

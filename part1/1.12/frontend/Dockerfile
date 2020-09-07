@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-ENV API_URL=http://localhost:8000/
+ENV API_URL=http://192.168.99.100:8000
 
 # Install dependencies and clone repository
 RUN apt-get update && apt-get install -y curl && apt-get install -y git

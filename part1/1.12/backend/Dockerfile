@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-ENV FRONT_URL=http://localhost:5000/
+ENV FRONT_URL=http://192.168.99.100:5000
 
 # Install dependencies and clone github repo
 RUN apt-get update && apt-get install -y curl && apt-get install -y git

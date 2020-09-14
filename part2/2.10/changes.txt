@@ -1,0 +1,5 @@
+After configuring nginx I used the docker-server ip
+without the port number as "FRONT_URL"-environment variable.
+
+OLD: FRONT_URL=http://192.168.99.100:5000
+NEW: FRONT_URL=http://192.168.99.100

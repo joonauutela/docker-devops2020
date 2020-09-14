@@ -1,0 +1,6 @@
+BUILD:
+$ docker build -t frontend .
+
+RUN:
+$ docker run -p 5000:5000 frontend
+INFO: Accepting connections at http://localhost:5000

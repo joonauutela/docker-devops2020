@@ -1,0 +1,7 @@
+BUILD:
+$ docker build -t backend .
+
+RUN:
+$ docker run -p 8000:8000 backend
+> backend-example-docker@1.0.0 start /backend-example-docker
+> node index.js

@@ -7,4 +7,4 @@ Exercises and course material can be found at https://devopswithdocker.com/
 "The course is an introductory course to Docker and docker-compose and their usage in single host deployments. Course will also introduce other container management tools.
 Course will also look into what different parts web services consist of such as reverse proxies, caches and databases."
 
-This course is worth 3 ECTS credits
+This course is worth 1-3 ECTS credits
